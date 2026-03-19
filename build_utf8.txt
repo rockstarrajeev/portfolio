@@ -1,0 +1,66 @@
+﻿
+> portfolio@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 483 modules transformed.
+node.exe : [31mΓ£ù[39m Build failed in 1.70s
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Users\rajee\AppData\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([31mΓ£ù[ 
+   39m Build failed in 1.70s:String) [], RemoteExcepti  
+  on
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[31merror during build:
+[31msrc/utils/data.jsx (6:107): "SiMicrosoftazure" is 
+not exported by 
+"node_modules/react-icons/si/index.mjs", imported by 
+"src/utils/data.jsx".[31m
+file: [36mC:/Users/rajee/.gemini/antigravity/scratch/po
+rtfolio/src/utils/data.jsx:6:107[31m
+[33m
+4:     FaGitAlt, FaLinux, FaDatabase, FaWindows
+5: } from 'react-icons/fa';
+6: import { SiTypescript, SiVite, SiTailwindcss, 
+SiKubernetes, SiTerraform, SiMongodb, SiPostgresql, 
+SiRedis, SiMicrosof...
+                                                        
+                                                      ^
+7: 
+8: export const personalInfo = {
+[31m
+    at getRollupError (file:///C:/Users/rajee/.gemini/an
+tigravity/scratch/portfolio/node_modules/rollup/dist/es/
+shared/parseAst.js:402:41)
+    at error (file:///C:/Users/rajee/.gemini/antigravity
+/scratch/portfolio/node_modules/rollup/dist/es/shared/pa
+rseAst.js:398:42)
+    at Module.error (file:///C:/Users/rajee/.gemini/anti
+gravity/scratch/portfolio/node_modules/rollup/dist/es/sh
+ared/node-entry.js:17040:16)
+    at Module.traceVariable (file:///C:/Users/rajee/.gem
+ini/antigravity/scratch/portfolio/node_modules/rollup/di
+st/es/shared/node-entry.js:17452:29)
+    at ModuleScope.findVariable (file:///C:/Users/rajee/
+.gemini/antigravity/scratch/portfolio/node_modules/rollu
+p/dist/es/shared/node-entry.js:15070:39)
+    at Identifier.bind (file:///C:/Users/rajee/.gemini/a
+ntigravity/scratch/portfolio/node_modules/rollup/dist/es
+/shared/node-entry.js:5447:40)
+    at CallExpression.bind (file:///C:/Users/rajee/.gemi
+ni/antigravity/scratch/portfolio/node_modules/rollup/dis
+t/es/shared/node-entry.js:2825:28)
+    at CallExpression.bind (file:///C:/Users/rajee/.gemi
+ni/antigravity/scratch/portfolio/node_modules/rollup/dis
+t/es/shared/node-entry.js:12179:15)
+    at Property.bind (file:///C:/Users/rajee/.gemini/ant
+igravity/scratch/portfolio/node_modules/rollup/dist/es/s
+hared/node-entry.js:2829:23)
+    at ObjectExpression.bind (file:///C:/Users/rajee/.ge
+mini/antigravity/scratch/portfolio/node_modules/rollup/d
+ist/es/shared/node-entry.js:2825:28)[39m

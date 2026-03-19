@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  /* Vibrant Indigo → Violet palette */
+  --color-brand-50: #eef2ff;
+  --color-brand-100: #e0e7ff;
+  --color-brand-200: #c7d2fe;
+  --color-brand-300: #a5b4fc;
+  --color-brand-400: #818cf8;
+  --color-brand-500: #6366f1;
+  --color-brand-600: #4f46e5;
+  --color-brand-700: #4338ca;
+  --color-brand-800: #3730a3;
+  --color-brand-900: #312e81;
+  --color-brand-950: #1e1b4b;
+
+  --color-accent-400: #c084fc;
+  --color-accent-500: #a855f7;
+  --color-accent-600: #9333ea;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Outfit', system-ui, sans-serif;
+}
+
+/* Enable dark mode using .dark class on html/body */
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 antialiased;
+  }
+  
+  .dark body {
+    @apply bg-slate-950 text-slate-50;
+  }
+}
+
+/* Glassmorphism Utilities */
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/30 shadow-lg;
+  }
+  .dark .glass {
+    @apply bg-slate-900/70 border-slate-700/40 shadow-slate-950/60;
+  }
+
+  /* Gradient text helper */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-500 via-accent-500 to-brand-400;
+  }
+
+  /* Glow on hover for nav links */
+  .nav-glow {
+    @apply relative transition-all duration-300;
+  }
+  .nav-glow::after {
+    content: '';
+    @apply absolute -bottom-1 left-1/2 w-0 h-0.5 bg-gradient-to-r from-brand-500 to-accent-500 transition-all duration-300 -translate-x-1/2 rounded-full;
+  }
+  .nav-glow:hover::after,
+  .nav-glow.nav-active::after {
+    @apply w-full;
+  }
+
+  /* Gradient accent line */
+  .gradient-line {
+    @apply h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent;
+  }
+}

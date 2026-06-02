@@ -17,6 +17,7 @@ const Projects = () => {
 
     const openModal = (project) => {
         setSelectedProject(project);
+        // eslint-disable-next-line react-hooks/immutability
         document.body.style.overflow = 'hidden';
     };
 

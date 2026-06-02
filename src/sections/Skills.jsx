@@ -65,7 +65,7 @@ const Skills = () => {
                     className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"
                 >
                     <AnimatePresence mode="popLayout">
-                        {filteredSkills.map((skill, index) => {
+                        {filteredSkills.map((skill) => {
                             const prof = getProficiency(skill.level);
                             
                             return (

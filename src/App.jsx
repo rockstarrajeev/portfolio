@@ -15,7 +15,9 @@ function App() {
 
   useEffect(() => {
     // Check initial user preference or system preference
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsDark(true);
       document.documentElement.classList.add('dark');
     }

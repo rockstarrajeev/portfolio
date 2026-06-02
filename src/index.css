@@ -20,6 +20,18 @@
 
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-heading: 'Outfit', system-ui, sans-serif;
+
+  --animate-float-slow: float-slow 8s ease-in-out infinite;
+  --animate-pulse-slow: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  
+  @keyframes float-slow {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-20px) scale(1.05); }
+  }
+  @keyframes pulse-slow {
+    0%, 100% { opacity: 0.3; transform: scale(1); }
+    50% { opacity: 0.55; transform: scale(1.08); }
+  }
 }
 
 /* Enable dark mode using .dark class on html/body */
@@ -42,6 +54,45 @@
   }
   .dark .glass {
     @apply bg-slate-900/70 border-slate-700/40 shadow-slate-950/60;
+  }
+
+  .glass-premium {
+    @apply bg-white/45 backdrop-blur-2xl border border-white/20 shadow-2xl transition-all duration-500 hover:bg-white/60 hover:border-white/40;
+  }
+  .dark .glass-premium {
+    @apply bg-slate-950/45 border-slate-800/45 shadow-slate-950/80 hover:bg-slate-950/60 hover:border-slate-800/60;
+  }
+
+  /* Developer Grid & Dot Backgrounds */
+  .bg-grid {
+    background-size: 50px 50px;
+    background-image: 
+      linear-gradient(to right, rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+  }
+  .dark .bg-grid {
+    background-image: 
+      linear-gradient(to right, rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+  }
+
+  .bg-dot-glow {
+    background-size: 24px 24px;
+    background-image: radial-gradient(circle at 1px 1px, rgba(99, 102, 241, 0.12) 1.5px, transparent 0);
+  }
+  .dark .bg-dot-glow {
+    background-image: radial-gradient(circle at 1px 1px, rgba(168, 85, 247, 0.08) 1.5px, transparent 0);
+  }
+
+  .border-glow {
+    @apply relative overflow-hidden transition-all duration-500;
+  }
+  .border-glow::before {
+    content: '';
+    @apply absolute inset-0 -z-10 bg-gradient-to-r from-brand-500 to-accent-500 rounded-2xl opacity-0 transition-all duration-500 blur-md scale-95;
+  }
+  .border-glow:hover::before {
+    @apply opacity-30 scale-100;
   }
 
   /* Gradient text helper */

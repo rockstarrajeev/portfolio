@@ -14,12 +14,13 @@ import { TbBrandOffice } from 'react-icons/tb';
 
 export const personalInfo = {
     name: "Rajeev Upadhyay",
-    role: "Systems Engineer",
-    bio: "Results-driven Systems Engineer with over 6 years of experience at Tata Consultancy Services (TCS). Specialist in designing, automating, and managing secure, high-availability Windows infrastructure for enterprise clients. Expertise includes Windows Server administration, Active Directory, Microsoft 365, Azure cloud services, SCCM, VMware virtualization, and Citrix VDI solutions.",
-    email: "rajeev.upadhyay@protonmail.com",
-    location: "Kapilvastu, Nepal",
+    role: "Sr. Software Engineer",
+    bio: "Software Engineer with 9+ years of experience across enterprise IT operations, cloud infrastructure, and managed services delivery. Proven track record in 24×7 operational environments — monitoring, incident triage, and runbook-driven response — with hands-on expertise in Azure IaaS, Citrix XenApp/XenDesktop, PowerShell/Python scripting, and ITSM tooling (ServiceNow). Currently operating Softcorp Group LLC delivering cloud and infrastructure solutions to clients across Nepal, India, and the USA. Formerly at Tata Consultancy Services (TCS), managing 3,500+ servers and 5,000+ users in a mission-critical enterprise environment.",
+    email: "rajeev.upadhyay@live.in",
+    location: "Lucknow, India",
     resumeUrl: "/RAJEEV_UPADHYAY_Resume.pdf",
-    phone: "+1 (929) 266-4560",
+    resumeDocxUrl: "/Rajeev_Upadhyay_Resume.docx",
+    phone: "+1 (929) 266-4560, +91 9044602200",
     github: "https://github.com/rockstarrajeev",
     socials: [
         { name: "LinkedIn", url: "https://www.linkedin.com/in/rajeevrockstar/" },
@@ -90,18 +91,39 @@ export const techStack = [
 export const experienceData = [
     {
         id: 1,
+        role: "Founder & Independent IT Consultant",
+        company: "Softcorp Group LLC (Remote / USA-registered LLC)",
+        period: "Jan 2023 – Present",
+        description: "Delivering enterprise-grade cloud and infrastructure solutions to clients across Nepal, India, and the USA. Specialist in NOC-style eyes-on-glass monitoring, performance optimization, and robust automated workflows.",
+        achievements: [
+            "Architected and deployed Azure IaaS environments (VMs, VNets, NSGs, Storage Accounts) via ARM templates and PowerShell, reducing provisioning times by 60%.",
+            "Configured Azure Monitor and Log Analytics workspaces with custom KQL queries for dashboards and centralized alerting across client subscriptions.",
+            "Authored Azure Automation Runbooks (PowerShell) for scheduled VM start/stop, reducing compute costs by ~30% monthly.",
+            "Managed Azure AD tenants, including user/group lifecycle, Conditional Access, MFA enforcement, and hybrid Azure AD Connect sync troubleshooting.",
+            "Administered and tuned Citrix XenApp/XenDesktop CVAD environments, improving session reliability and optimizing VDA/profile management.",
+            "Built PowerShell frameworks for user provisioning, license management, and notification flows across hybrid AD environments.",
+            "Developed Python event-parsing scripts and reusable PowerShell frameworks for automated Windows Server CIS Benchmark hardening scorecards."
+        ]
+    },
+    {
+        id: 2,
         role: "Systems Engineer",
         company: "Tata Consultancy Services (TCS), New Delhi, India",
-        period: "June 2015 – June 2021",
-        description: "Managed secure, high-availability Windows infrastructure for enterprise clients. Configured custom dashboards in SolarWinds, reducing MTTR for P1/P2 incidents by 35%. Automated ticket triage and incident resolution using Python (FastAPI) and LLMs.",
+        period: "Jun 2015 – Jun 2021",
+        description: "Operated in a NOC-style, 24×7 enterprise environment supporting 3,500+ servers and workstations, upholding strict runbook/SOP-driven incident response and SLA guidelines.",
         achievements: [
-            "Achieved 98.5% patch compliance across 3,500+ servers and workstations via SCCM/WSUS.",
-            "Administered multi-domain Active Directory for 5,000+ users, reducing helpdesk tickets by 30%.",
-            "Maintained 200+ VMs across VMware ESXi and Hyper-V, improving resource utilization by 25%.",
-            "Migrated 1,500+ mailboxes from on-premise Exchange to O365 with Azure AD Connect & MFA.",
-            "Stabilized Citrix XenApp farm (500+ users), reducing disconnects by 35%.",
-            "Saved 10+ hours weekly through PowerShell and Python automation.",
-            "Authored 30+ SOPs and technical runbooks for the team."
+            "Operated in a NOC-style environment supporting 3,500+ servers, following strict runbook and SOP-driven incident response procedures.",
+            "Configured SolarWinds dashboards and threshold alerts for proactive infrastructure monitoring, reducing P1/P2 MTTR by 35%.",
+            "Authored and maintained 30+ SOPs and technical runbooks, significantly improving L1/L2 first-call resolution rates.",
+            "Maintained 100% ITIL compliance in ServiceNow for change, incident, and problem management with rigorous shift-handover docs.",
+            "Led migration of 1,500+ mailboxes from on-premises Exchange to Microsoft 365, configuring Azure AD Connect and MFA to reduce password resets by 40%.",
+            "Enforced Conditional Access policies in Azure AD to protect corporate data from unmanaged device access.",
+            "Managed 200+ VMs on VMware ESXi and Hyper-V, improving resource utilization by 25% through consolidation and rightsizing.",
+            "Stabilized Citrix XenApp farm (500+ concurrent users), reducing session disconnects by 35% via policy tuning and profile optimization.",
+            "Developed PowerShell automation suites for user provisioning, health checks, and weekly compliance reporting, saving 10+ hours weekly.",
+            "Built Python log parsers and patch status aggregators, reducing reporting cycle times from 2 days to under 30 minutes.",
+            "Orchestrated monthly Windows patching cycles using SCCM/WSUS for 3,500+ endpoints, achieving 98.5% compliance within 48 hours of release.",
+            "Administered Active Directory for 5,000+ users, with GPO optimization reducing login-related helpdesk tickets by 30%."
         ]
     }
 ];
@@ -111,39 +133,63 @@ export const educationData = [
         id: 1,
         degree: "Master of Science in Computer Science",
         institution: "Banaras Hindu University (BHU)",
-        period: "2011 – 2023",
+        period: "Dec 2021 – Dec 2023",
     },
     {
         id: 2,
         degree: "Bachelor of Computer Applications (BCA)",
         institution: "University of Lucknow",
-        period: "2011 – 2014",
+        period: "Dec 2011 – Dec 2014",
     }
 ];
 
 export const projectsData = [
     {
         id: 1,
-        title: "AI-Driven Workflow Automation",
-        category: "AI & Automation",
-        image: "/generated-image2.png",
-        description: "Built an intelligent workflow automation tool to streamline complex IT processes, minimizing manual intervention.",
-        problem: "Manual ticket triage was time-consuming and prone to human error.",
-        solution: "Built a Python (FastAPI) backend using LLMs for ticket triage, intent extraction, and automated runbook generation.",
-        tools: ["Python", "FastAPI", "LLMs", "MLflow"],
-        github: "https://github.com/rockstarrajeev",
-        demo: "https://rajeevupadhyay.com/"
+        title: "Azure Enterprise Landing Zone Architecture",
+        category: "Cloud & Infrastructure",
+        image: "/azure_architecture.png",
+        description: "A highly available, secure, and scalable Azure environment deployed entirely via Infrastructure-as-Code.",
+        problem: "Manual deployment of cloud resources led to configuration drift and security compliance gaps.",
+        solution: "Architected a Hub-Spoke Azure landing zone using Bicep/ARM templates, Azure Firewall, and VPN Gateways, fully integrated with Azure DevOps CI/CD pipelines.",
+        tools: ["Azure", "Bicep", "PowerShell", "Entra ID"],
+        github: "https://github.com/rockstarrajeev/azure-enterprise-landing-zone",
+        demo: null
     },
     {
         id: 2,
-        title: "Policy-as-Code for Smart Contracts",
+        title: "IT Operations & AD Automation Suite",
+        category: "Systems Engineering",
+        image: "/enterprise_automation.png",
+        description: "A comprehensive framework of PowerShell and Python scripts automating massive-scale system administration.",
+        problem: "Helpdesk and L2 teams spent thousands of hours annually on repetitive provisioning and health-check tasks.",
+        solution: "Developed modular automation runbooks for zero-touch user lifecycle management in Active Directory, M365 licensing, and automated VMware ESXi health audits.",
+        tools: ["PowerShell", "Python", "Active Directory", "VMware"],
+        github: "https://github.com/rockstarrajeev/it-operations-ad-automation",
+        demo: null
+    },
+    {
+        id: 3,
+        title: "Zero-Trust Security & Compliance Auditor",
         category: "Cyber Security",
-        image: "/about_2.jpg",
-        description: "An automated security analysis pipeline for smart contracts.",
-        problem: "Deploying secure smart contracts required manual auditing steps.",
-        solution: "Implemented Python-based CI/CD for smart contracts using Slither, Mythril, Brownie, and Hardhat to automatically enforce security policies.",
-        tools: ["Python", "Slither", "Mythril", "CI/CD", "Solidity"],
-        github: "https://github.com/rockstarrajeev",
+        image: "/cybersecurity_shield.png",
+        description: "Automated compliance auditing framework ensuring adherence to CIS Benchmarks across hybrid environments.",
+        problem: "Maintaining compliance across 3,500+ endpoints required significant manual labor and delayed reporting.",
+        solution: "Engineered a Python-based compliance engine and PowerShell agents that continuously audit server configurations, flag deviations, and enforce SCCM remediation baselines.",
+        tools: ["Python", "SCCM", "Defender", "Intune"],
+        github: "https://github.com/rockstarrajeev/zero-trust-compliance-auditor",
+        demo: null
+    },
+    {
+        id: 4,
+        title: "AI-Driven ITSM Ticket Triage",
+        category: "AI & Automation",
+        image: "/generated-image2.png",
+        description: "An intelligent workflow tool integrated with ServiceNow to autonomously categorize and route IT incidents.",
+        problem: "Manual ticket triage in the NOC environment was a major bottleneck for SLA adherence.",
+        solution: "Built a Python FastAPI backend leveraging Local LLMs to extract intents from tickets, auto-populate categories, and suggest existing runbook links for L1 engineers.",
+        tools: ["Python", "FastAPI", "LLMs", "ServiceNow"],
+        github: "https://github.com/rockstarrajeev/ai-itsm-ticket-triage",
         demo: null
     }
 ];
@@ -190,7 +236,7 @@ export const githubRepos = [
 export const certificationsData = [
     {
         id: 1,
-        name: "Oracle Cloud Infrastructure 2025 AI Foundations Associate",
+        name: "Oracle Cloud Infrastructure 2025 AI Foundations Associate (1Z0-1122-25)",
         issuer: "Oracle",
         date: "2025"
     },
@@ -202,24 +248,30 @@ export const certificationsData = [
     },
     {
         id: 3,
-        name: "The Joy of Computing Using Python",
+        name: "IIT Madras: The Joy of Computing Using Python",
         issuer: "IIT Madras",
         date: "2023"
     },
     {
         id: 4,
-        name: "Online Privacy",
+        name: "IIIT Hyderabad: Online Privacy & Cloud Security",
         issuer: "IIIT Hyderabad",
         date: "2022"
     },
     {
         id: 5,
-        name: "Ethical Hacking",
+        name: "IIT Kharagpur: Ethical Hacking & Cloud Security",
         issuer: "IIT Kharagpur",
         date: "2022"
     },
     {
         id: 6,
+        name: "IELTS Academic English Proficiency",
+        issuer: "IELTS",
+        date: "2019"
+    },
+    {
+        id: 7,
         name: "ITIL Certified Professional",
         issuer: "AXELOS",
         date: "2018"

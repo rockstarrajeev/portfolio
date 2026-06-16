@@ -1,0 +1,2059 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L1",
+      "id": "eslint_config",
+      "community": 16,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package",
+      "community": 2,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "package_name",
+      "community": 2,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "package_private",
+      "community": 2,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "package_version",
+      "community": 2,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "package_type",
+      "community": 2,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "package_scripts",
+      "community": 2,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "package_scripts_dev",
+      "community": 2,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "package_scripts_build",
+      "community": 2,
+      "norm_label": "build"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "package_scripts_lint",
+      "community": 2,
+      "norm_label": "lint"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "package_scripts_preview",
+      "community": 2,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "id": "package_dependencies",
+      "community": 3,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "framer-motion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "package_dependencies_framer_motion",
+      "community": 3,
+      "norm_label": "framer-motion"
+    },
+    {
+      "label": "pdfjs-dist",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "package_dependencies_pdfjs_dist",
+      "community": 3,
+      "norm_label": "pdfjs-dist"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "id": "package_dependencies_react",
+      "community": 3,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "package_dependencies_react_dom",
+      "community": 3,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "react-icons",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "package_dependencies_react_icons",
+      "community": 3,
+      "norm_label": "react-icons"
+    },
+    {
+      "label": "react-intersection-observer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "id": "package_dependencies_react_intersection_observer",
+      "community": 3,
+      "norm_label": "react-intersection-observer"
+    },
+    {
+      "label": "react-pdf",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "id": "package_dependencies_react_pdf",
+      "community": 3,
+      "norm_label": "react-pdf"
+    },
+    {
+      "label": "react-scroll",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "id": "package_dependencies_react_scroll",
+      "community": 3,
+      "norm_label": "react-scroll"
+    },
+    {
+      "label": "react-type-animation",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "id": "package_dependencies_react_type_animation",
+      "community": 3,
+      "norm_label": "react-type-animation"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "package_devdependencies",
+      "community": 0,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "id": "package_devdependencies_eslint_js",
+      "community": 0,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "package_devdependencies_tailwindcss_vite",
+      "community": 0,
+      "norm_label": "@tailwindcss/vite"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "id": "package_devdependencies_types_react",
+      "community": 0,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "id": "package_devdependencies_types_react_dom",
+      "community": 0,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "id": "package_devdependencies_vitejs_plugin_react",
+      "community": 0,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "autoprefixer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "id": "package_devdependencies_autoprefixer",
+      "community": 0,
+      "norm_label": "autoprefixer"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "id": "package_devdependencies_eslint",
+      "community": 0,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "id": "package_devdependencies_eslint_plugin_react_hooks",
+      "community": 0,
+      "norm_label": "eslint-plugin-react-hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "id": "package_devdependencies_eslint_plugin_react_refresh",
+      "community": 0,
+      "norm_label": "eslint-plugin-react-refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "id": "package_devdependencies_globals",
+      "community": 0,
+      "norm_label": "globals"
+    },
+    {
+      "label": "postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "id": "package_devdependencies_postcss",
+      "community": 0,
+      "norm_label": "postcss"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "id": "package_devdependencies_tailwindcss",
+      "community": 0,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "id": "package_devdependencies_vite",
+      "community": 0,
+      "norm_label": "vite"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "id": "src_app",
+      "community": 1,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L13",
+      "id": "src_app_app",
+      "community": 1,
+      "norm_label": "app()"
+    },
+    {
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L1",
+      "id": "components_footer",
+      "community": 8,
+      "norm_label": "footer.jsx"
+    },
+    {
+      "label": "navLinks",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L7",
+      "id": "components_footer_navlinks",
+      "community": 8,
+      "norm_label": "navlinks"
+    },
+    {
+      "label": "getIcon()",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L17",
+      "id": "components_footer_geticon",
+      "community": 8,
+      "norm_label": "geticon()"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L28",
+      "id": "components_footer_footer",
+      "community": 8,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Navbar.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L1",
+      "id": "components_navbar",
+      "community": 1,
+      "norm_label": "navbar.jsx"
+    },
+    {
+      "label": "navLinks",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L6",
+      "id": "components_navbar_navlinks",
+      "community": 1,
+      "norm_label": "navlinks"
+    },
+    {
+      "label": "menuVariants",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L17",
+      "id": "components_navbar_menuvariants",
+      "community": 1,
+      "norm_label": "menuvariants"
+    },
+    {
+      "label": "itemVariants",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L31",
+      "id": "components_navbar_itemvariants",
+      "community": 1,
+      "norm_label": "itemvariants"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L37",
+      "id": "components_navbar_navbar",
+      "community": 1,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "ProjectCard.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ProjectCard.jsx",
+      "source_location": "L1",
+      "id": "components_projectcard",
+      "community": 4,
+      "norm_label": "projectcard.jsx"
+    },
+    {
+      "label": "ProjectCard()",
+      "file_type": "code",
+      "source_file": "src/components/ProjectCard.jsx",
+      "source_location": "L4",
+      "id": "components_projectcard_projectcard",
+      "community": 4,
+      "norm_label": "projectcard()"
+    },
+    {
+      "label": "ProjectModal.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ProjectModal.jsx",
+      "source_location": "L1",
+      "id": "components_projectmodal",
+      "community": 4,
+      "norm_label": "projectmodal.jsx"
+    },
+    {
+      "label": "ProjectModal()",
+      "file_type": "code",
+      "source_file": "src/components/ProjectModal.jsx",
+      "source_location": "L5",
+      "id": "components_projectmodal_projectmodal",
+      "community": 4,
+      "norm_label": "projectmodal()"
+    },
+    {
+      "label": "ResumeModal.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ResumeModal.jsx",
+      "source_location": "L1",
+      "id": "components_resumemodal",
+      "community": 14,
+      "norm_label": "resumemodal.jsx"
+    },
+    {
+      "label": "ResumeModal()",
+      "file_type": "code",
+      "source_file": "src/components/ResumeModal.jsx",
+      "source_location": "L5",
+      "id": "components_resumemodal_resumemodal",
+      "community": 14,
+      "norm_label": "resumemodal()"
+    },
+    {
+      "label": "SectionContainer.jsx",
+      "file_type": "code",
+      "source_file": "src/components/SectionContainer.jsx",
+      "source_location": "L1",
+      "id": "components_sectioncontainer",
+      "community": 9,
+      "norm_label": "sectioncontainer.jsx"
+    },
+    {
+      "label": "SectionContainer()",
+      "file_type": "code",
+      "source_file": "src/components/SectionContainer.jsx",
+      "source_location": "L4",
+      "id": "components_sectioncontainer_sectioncontainer",
+      "community": 9,
+      "norm_label": "sectioncontainer()"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L1",
+      "id": "src_main",
+      "community": 1,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "About.jsx",
+      "file_type": "code",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L1",
+      "id": "sections_about",
+      "community": 11,
+      "norm_label": "about.jsx"
+    },
+    {
+      "label": "resumeHighlights",
+      "file_type": "code",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L7",
+      "id": "sections_about_resumehighlights",
+      "community": 11,
+      "norm_label": "resumehighlights"
+    },
+    {
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L14",
+      "id": "sections_about_about",
+      "community": 11,
+      "norm_label": "about()"
+    },
+    {
+      "label": "Certifications.jsx",
+      "file_type": "code",
+      "source_file": "src/sections/Certifications.jsx",
+      "source_location": "L1",
+      "id": "sections_certifications",
+      "community": 6,
+      "norm_label": "certifications.jsx"
+    },
+    {
+      "label": "Certifications()",
+      "file_type": "code",
+      "source_file": "src/sections/Certifications.jsx",
+      "source_location": "L7",
+      "id": "sections_certifications_certifications",
+      "community": 6,
+      "norm_label": "certifications()"
+    },
+    {
+      "label": "Contact.jsx",
+      "file_type": "code",
+      "source_file": "src/sections/Contact.jsx",
+      "source_location": "L1",
+      "id": "sections_contact",
+      "community": 9,
+      "norm_label": "contact.jsx"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "src/sections/Contact.jsx",
+      "source_location": "L10",
+      "id": "sections_contact_contact",
+      "community": 9,
+      "norm_label": "contact()"
+    },
+    {
+      "label": "Experience.jsx",
+      "file_type": "code",
+      "source_file": "src/sections/Experience.jsx",
+      "source_location": "L1",
+      "id": "sections_experience",
+      "community": 12,
+      "norm_label": "experience.jsx"
+    },
+    {
+      "label": "Experience()",
+      "file_type": "code",
+      "source_file": "src/sections/Experience.jsx",
+      "source_location": "L6",
+      "id": "sections_experience_experience",
+      "community": 12,
+      "norm_label": "experience()"
+    },
+    {
+      "label": "GitHubRepos.jsx",
+      "file_type": "code",
+      "source_file": "src/sections/GitHubRepos.jsx",
+      "source_location": "L1",
+      "id": "sections_githubrepos",
+      "community": 1,
+      "norm_label": "githubrepos.jsx"
+    },
+    {
+      "label": "languageColors",
+      "file_type": "code",
+      "source_file": "src/sections/GitHubRepos.jsx",
+      "source_location": "L7",
+      "id": "sections_githubrepos_languagecolors",
+      "community": 1,
+      "norm_label": "languagecolors"
+    },
+    {
+      "label": "GitHubRepos()",
+      "file_type": "code",
+      "source_file": "src/sections/GitHubRepos.jsx",
+      "source_location": "L31",
+      "id": "sections_githubrepos_githubrepos",
+      "community": 1,
+      "norm_label": "githubrepos()"
+    },
+    {
+      "label": "Hero.jsx",
+      "file_type": "code",
+      "source_file": "src/sections/Hero.jsx",
+      "source_location": "L1",
+      "id": "sections_hero",
+      "community": 13,
+      "norm_label": "hero.jsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "src/sections/Hero.jsx",
+      "source_location": "L6",
+      "id": "sections_hero_hero",
+      "community": 13,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "Projects.jsx",
+      "file_type": "code",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L1",
+      "id": "sections_projects",
+      "community": 4,
+      "norm_label": "projects.jsx"
+    },
+    {
+      "label": "filterTabs",
+      "file_type": "code",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L8",
+      "id": "sections_projects_filtertabs",
+      "community": 4,
+      "norm_label": "filtertabs"
+    },
+    {
+      "label": "Projects()",
+      "file_type": "code",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L14",
+      "id": "sections_projects_projects",
+      "community": 4,
+      "norm_label": "projects()"
+    },
+    {
+      "label": "Skills.jsx",
+      "file_type": "code",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L1",
+      "id": "sections_skills",
+      "community": 7,
+      "norm_label": "skills.jsx"
+    },
+    {
+      "label": "categories",
+      "file_type": "code",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L7",
+      "id": "sections_skills_categories",
+      "community": 7,
+      "norm_label": "categories"
+    },
+    {
+      "label": "getProficiency()",
+      "file_type": "code",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L15",
+      "id": "sections_skills_getproficiency",
+      "community": 7,
+      "norm_label": "getproficiency()"
+    },
+    {
+      "label": "Skills()",
+      "file_type": "code",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L21",
+      "id": "sections_skills_skills",
+      "community": 7,
+      "norm_label": "skills()"
+    },
+    {
+      "label": "data.jsx",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L1",
+      "id": "utils_data",
+      "community": 6,
+      "norm_label": "data.jsx"
+    },
+    {
+      "label": "personalInfo",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L15",
+      "id": "utils_data_personalinfo",
+      "community": 13,
+      "norm_label": "personalinfo"
+    },
+    {
+      "label": "skillsData",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L35",
+      "id": "utils_data_skillsdata",
+      "community": 7,
+      "norm_label": "skillsdata"
+    },
+    {
+      "label": "techStack",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L61",
+      "id": "utils_data_techstack",
+      "community": 11,
+      "norm_label": "techstack"
+    },
+    {
+      "label": "experienceData",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L91",
+      "id": "utils_data_experiencedata",
+      "community": 12,
+      "norm_label": "experiencedata"
+    },
+    {
+      "label": "educationData",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L131",
+      "id": "utils_data_educationdata",
+      "community": 6,
+      "norm_label": "educationdata"
+    },
+    {
+      "label": "projectsData",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L146",
+      "id": "utils_data_projectsdata",
+      "community": 4,
+      "norm_label": "projectsdata"
+    },
+    {
+      "label": "githubRepos",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L197",
+      "id": "utils_data_githubrepos",
+      "community": 6,
+      "norm_label": "githubrepos"
+    },
+    {
+      "label": "certificationsData",
+      "file_type": "code",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L236",
+      "id": "utils_data_certificationsdata",
+      "community": 6,
+      "norm_label": "certificationsdata"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "vite.config.js",
+      "source_location": "L1",
+      "id": "vite_config",
+      "community": 15,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "configureServer()",
+      "file_type": "code",
+      "source_file": "vite.config.js",
+      "source_location": "L12",
+      "id": "vite_config_configureserver",
+      "community": 15,
+      "norm_label": "configureserver()"
+    },
+    {
+      "label": "MEMORY.md",
+      "file_type": "document",
+      "source_file": "MEMORY.md",
+      "source_location": "L1",
+      "id": "memory",
+      "community": 5,
+      "norm_label": "memory.md"
+    },
+    {
+      "label": "Project State Graph & Memory",
+      "file_type": "document",
+      "source_file": "MEMORY.md",
+      "source_location": "L1",
+      "id": "memory_project_state_graph_memory",
+      "community": 5,
+      "norm_label": "project state graph & memory"
+    },
+    {
+      "label": "Active Task",
+      "file_type": "document",
+      "source_file": "MEMORY.md",
+      "source_location": "L3",
+      "id": "memory_active_task",
+      "community": 5,
+      "norm_label": "active task"
+    },
+    {
+      "label": "Completed Milestones",
+      "file_type": "document",
+      "source_file": "MEMORY.md",
+      "source_location": "L8",
+      "id": "memory_completed_milestones",
+      "community": 5,
+      "norm_label": "completed milestones"
+    },
+    {
+      "label": "Blocked",
+      "file_type": "document",
+      "source_file": "MEMORY.md",
+      "source_location": "L18",
+      "id": "memory_blocked",
+      "community": 5,
+      "norm_label": "blocked"
+    },
+    {
+      "label": "Decisions Log",
+      "file_type": "document",
+      "source_file": "MEMORY.md",
+      "source_location": "L21",
+      "id": "memory_decisions_log",
+      "community": 5,
+      "norm_label": "decisions log"
+    },
+    {
+      "label": "Last Checkpoint",
+      "file_type": "document",
+      "source_file": "MEMORY.md",
+      "source_location": "L27",
+      "id": "memory_last_checkpoint",
+      "community": 5,
+      "norm_label": "last checkpoint"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme",
+      "community": 10,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "React + Vite",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_react_vite",
+      "community": 10,
+      "norm_label": "react + vite"
+    },
+    {
+      "label": "React Compiler",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "id": "readme_react_compiler",
+      "community": 10,
+      "norm_label": "react compiler"
+    },
+    {
+      "label": "Expanding the ESLint configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "id": "readme_expanding_the_eslint_configuration",
+      "community": 10,
+      "norm_label": "expanding the eslint configuration"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_framer_motion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_pdfjs_dist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_intersection_observer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_pdf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_scroll",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_type_animation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_autoprefixer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_react_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_react_refresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_globals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_postcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_tailwindcss_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "sections_about",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "sections_certifications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "sections_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "sections_experience",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "sections_githubrepos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "sections_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "sections_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "sections_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "components_footer_geticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "components_footer_navlinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "utils_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "utils_data_personalinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "components_navbar",
+      "target": "components_navbar_itemvariants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "components_navbar",
+      "target": "components_navbar_menuvariants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "components_navbar",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_navbar",
+      "target": "components_navbar_navlinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ProjectCard.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_projectcard",
+      "target": "components_projectcard_projectcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_projects",
+      "target": "components_projectcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ProjectModal.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_projectmodal",
+      "target": "components_projectmodal_projectmodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "sections_projects",
+      "target": "components_projectmodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ResumeModal.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_resumemodal",
+      "target": "components_resumemodal_resumemodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/SectionContainer.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_sectioncontainer",
+      "target": "components_sectioncontainer_sectioncontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_about",
+      "target": "components_sectioncontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Certifications.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_certifications",
+      "target": "components_sectioncontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Contact.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_contact",
+      "target": "components_sectioncontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Experience.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "sections_experience",
+      "target": "components_sectioncontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/GitHubRepos.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_githubrepos",
+      "target": "components_sectioncontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "sections_projects",
+      "target": "components_sectioncontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_skills",
+      "target": "components_sectioncontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "sections_about",
+      "target": "sections_about_about",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "sections_about",
+      "target": "sections_about_resumehighlights",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_about",
+      "target": "utils_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_about",
+      "target": "utils_data_personalinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/About.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_about",
+      "target": "utils_data_techstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Certifications.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "sections_certifications",
+      "target": "sections_certifications_certifications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Certifications.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_certifications",
+      "target": "utils_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Certifications.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_certifications",
+      "target": "utils_data_certificationsdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Contact.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "sections_contact",
+      "target": "sections_contact_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Contact.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "sections_contact",
+      "target": "utils_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Contact.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "sections_contact",
+      "target": "utils_data_personalinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Experience.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "sections_experience",
+      "target": "sections_experience_experience",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Experience.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_experience",
+      "target": "utils_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Experience.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_experience",
+      "target": "utils_data_experiencedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/GitHubRepos.jsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "sections_githubrepos",
+      "target": "sections_githubrepos_githubrepos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/GitHubRepos.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "sections_githubrepos",
+      "target": "sections_githubrepos_languagecolors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Hero.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "sections_hero",
+      "target": "sections_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Hero.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_hero",
+      "target": "utils_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Hero.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_hero",
+      "target": "utils_data_personalinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "sections_projects",
+      "target": "sections_projects_filtertabs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "sections_projects",
+      "target": "sections_projects_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_projects",
+      "target": "utils_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Projects.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "sections_projects",
+      "target": "utils_data_projectsdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "sections_skills",
+      "target": "sections_skills_categories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "sections_skills",
+      "target": "sections_skills_getproficiency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "sections_skills",
+      "target": "sections_skills_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_skills",
+      "target": "utils_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/sections/Skills.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "sections_skills",
+      "target": "utils_data_skillsdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "utils_data",
+      "target": "utils_data_certificationsdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "utils_data",
+      "target": "utils_data_educationdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "utils_data",
+      "target": "utils_data_experiencedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "utils_data",
+      "target": "utils_data_githubrepos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "utils_data",
+      "target": "utils_data_personalinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "utils_data",
+      "target": "utils_data_projectsdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "utils_data",
+      "target": "utils_data_skillsdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/data.jsx",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "utils_data",
+      "target": "utils_data_techstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "vite_config",
+      "target": "vite_config_configureserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MEMORY.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "memory",
+      "target": "memory_project_state_graph_memory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MEMORY.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "memory_project_state_graph_memory",
+      "target": "memory_active_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MEMORY.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "memory_project_state_graph_memory",
+      "target": "memory_blocked",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MEMORY.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "memory_project_state_graph_memory",
+      "target": "memory_completed_milestones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MEMORY.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "memory_project_state_graph_memory",
+      "target": "memory_decisions_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MEMORY.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "memory_project_state_graph_memory",
+      "target": "memory_last_checkpoint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_react_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "readme_react_vite",
+      "target": "readme_expanding_the_eslint_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "readme_react_vite",
+      "target": "readme_react_compiler",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
